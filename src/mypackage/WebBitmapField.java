@@ -12,7 +12,7 @@ public class WebBitmapField extends BitmapField implements WebDataCallback
     {  
         try  
         {  
-            Utils.getWebData(url, this);  
+            Utils.getDataFromUrl(url, this);  
         }  
         catch (Exception e) {}  
     }  

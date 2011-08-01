@@ -6,11 +6,12 @@ import java.io.InputStream;
 import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
 
+import net.rim.device.api.system.EventLogger;
 import net.rim.device.api.ui.UiApplication;
 
 public class Utils {
 
-	public static void getWebData(final String url,
+	public static void getDataFromUrl(final String url,
 			final WebDataCallback callback) throws IOException {
 		Thread t = new Thread(new Runnable() {
 			public void run() {
@@ -36,6 +37,7 @@ public class Utils {
 					UiApplication.getUiApplication().invokeLater(
 							new Runnable() {
 								public void run() {
+									Utils.log("Fetching: "+url+". Sucess: "+result.length()+" bytes.");
 									callback.callback(result);
 								}
 							});
@@ -60,5 +62,15 @@ public class Utils {
 			}
 		});
 		t.start();
+	}
+	
+	public static void log(String text)
+	{
+        if ( EventLogger.logEvent( 0x4c9d3452d87922f2L, text.getBytes() ) ) {
+        	System.out.println("HOLA "+text);
+        }else
+        {
+        	System.out.println("HOLA "+text+ "--> fallo logEvent");
+        }
 	}
 }

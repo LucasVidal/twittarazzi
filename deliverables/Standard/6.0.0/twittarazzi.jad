@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+MIDlet-Version: 1.0.0
+RIM-COD-URL-6: twittarazzi-6.cod
+MIDlet-Jar-Size: 672503
+RIM-COD-SHA1-6: c6 52 23 f8 ba 2c bf f3 99 85 d5 0f bc 52 26 5e 95 dc 36 95
+RIM-COD-URL-5: twittarazzi-5.cod
+RIM-COD-SHA1-5: 66 fc e7 88 6c 7a 00 7e e5 d6 fc ba c5 b6 7a 5e 20 14 80 4b
+RIM-COD-URL-4: twittarazzi-4.cod
+RIM-COD-SHA1-4: a0 e8 ff 90 28 e6 6c 1a c9 6b 8a 80 32 bd 8b 5c 82 cf 7d 87
+RIM-COD-URL-3: twittarazzi-3.cod
+RIM-COD-Size-6: 57424
+RIM-COD-SHA1-3: d7 4e 90 48 98 51 90 d9 69 31 c0 c3 23 ba 4a 04 4d 8a 79 11
+RIM-COD-URL-2: twittarazzi-2.cod
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: twittarazzi.jar
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_ui_extension
+RIM-COD-Size-5: 52372
+RIM-COD-SHA1-2: 2b 32 ce f1 0e 49 92 67 44 fb 2c 01 45 ac 02 6e 2c 3b 91 c6
+RIM-COD-URL-1: twittarazzi-1.cod
+RIM-COD-Size-4: 51880
+RIM-COD-SHA1-1: 10 af e3 f7 fe 0f 84 6a d3 e3 90 75 a1 4b 47 d2 95 3b 6f eb
+RIM-COD-Size-3: 56644
+RIM-COD-Size-2: 34812
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-1: 46176
+RIM-COD-Module-Name: twittarazzi
+MIDlet-Name: twittarazzi
+RIM-COD-Size: 48124
+RIM-COD-Creation-Time: 1312223131
+MIDlet-1: ,img/icon.png,
+RIM-COD-URL: twittarazzi.cod
+RIM-COD-SHA1: a7 db d5 e9 71 b4 74 7f eb 60 f7 ef 58 c7 5d ee cd 26 ed 9a
+MicroEdition-Profile: MIDP-2.0
+MIDlet-Vendor: BlackBerry Developer
